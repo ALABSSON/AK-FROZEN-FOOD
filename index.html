@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK FROZEN FOOD & DRINKS</title>
+    <link rel="shortcut icon" href="./images/logo.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="./css/Desktop.CSS">
+    <link rel="stylesheet" href="./css/Mobile.CSS">
+</head>
+<body>
+    
+    <!-- Header Section  -->
+    <header>
+        <img src="./images/logo.JPG" alt="">
+        <ul id="Menu">
+            <a href="#"><li> Home </li> </a>
+            <a href="#About"><li> About </li> </a>
+            <a href="#In_Stock"><li> In Stock </li> </a>
+            <a href="#Contact"><li> Contacts </li> </a>
+        </ul>
+        <button id="Btn"> ADD </button>
+    </header>
+
+        <!-- Home Section  -->
+    <section class="Home">
+        <div class="pic-ctn">
+            <img src="./images/IMG_4400.JPG" alt="" class="pic">
+            <img src="./images/IMG_4401.JPG" alt="" class="pic">
+            <img src="./images/IMG_4402.JPG" alt="" class="pic">
+            <img src="./images/IMG_4415.JPG" alt="" class="pic">
+            <img src="./images/IMG_4416.JPG" alt="" class="pic">
+          </div>
+        
+    </section>
+
+        <!-- About Section  -->
+    <section id="About">
+        <div class="aboutin1"> 
+            <h2> About Us </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel, earum distinctio ipsam vitae sed. Obcaecati architecto voluptatum ad quia facere reprehenderit, pariatur, sapiente debitis autem, a nisi sunt vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nisi ipsam error quod ad nam impedit, nobis magnam consectetur, animi voluptas, repellat inventore et placeat! Totam sed praesentium et vel.</p> 
+        </div>
+        <div class="aboutin2"> </div>
+    </section>
+
+        <!-- In Stock Section  -->
+    <section id="In_Stock">
+        <div class="stockRow">
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4400.JPG" alt=""> </div>
+                <div class="stockDetails">
+                    <h2> Chicken  </h2>
+                    <button id="btn1"> Order </button>
+                </div>
+            </div>
+
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4401.JPG" alt=""> </div>
+                <div class="stockDetails">
+                    <h2> Turkey  </h2>
+                    <button id="btn2"> Order </button>
+                </div>
+            </div>
+
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4402.JPG" alt=""> </div>
+                <div class="stockDetails">
+                    <h2> Wings </h2>
+                    <button id="btn3"> Order </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stockRow">
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4413.JPG" alt="">  </div>
+                <div class="stockDetails">
+                    <h2> Fish </h2>
+                    <button id="btn4"> Order </button>
+                </div>
+            </div>
+
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4415.JPG" alt="">  </div>
+                <div class="stockDetails">
+                    <h2> Gizard </h2>
+                    <button id="btn5"> Order </button>
+                </div>
+            </div>
+
+            <div class="stocks">
+                <div class="stockImg"> <img src="./images/IMG_4417.JPG" alt="">  </div>
+                <div class="stockDetails">
+                    <h2> Drinks </h2>
+                    <button id="btn6"> Order </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ordersection">
+        <div class="xclose"> <h2 id="xclose"> Close </h2> </div>
+        <div class="order">
+            <div class="orderList"> Ordering List </div>
+            <div class="orderRow">
+                <div class="itemList"> 
+                    <form>
+                        <h4> Item</h4>
+                        <h5> Price </h5>
+                        <h6> Quantity </h6>
+                    </form>
+                </div>
+                <div class="itemList">
+                    <form> 
+                        <h4> <img src="" alt=""> <span id="stockItem"> Chicken ( 1 kilo ) </span></h4>
+                        <h5 id="Price" oninput="calculate()">  540 </h5>
+                        <h6> <input type="number" id="QTY" oninput="calculate()"> </h6>
+                    </form>
+                </div>
+                <div class="itemList R"> 
+                    <div class="orderContact">
+                        <label for="Address"> Full Address </label>
+                        <input type="text" id="Address">
+                    </div>
+
+                    <div class="orderContact">
+                        <label for="Number"> Contact Number </label>
+                        <input type="number" id="Number">
+                    </div>
+                </div>
+            </div>
+            <div class="orderSubmit">
+                <div id="amount"> N </div>
+                <button> Submit </button>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section  -->
+    <footer id="Contact">
+        <div class="contactRow">
+            <h2>AK FROZEN FOOD & DRINKS</h2>
+        </div>
+
+        <div class="contactRow2"> 
+            <div class="contactcolumn"> 
+                <h2> Location </h2>
+                <span> 58, Macpherson Road, Sapele, Nigeria </span>
+                <button> Direction </button>
+            </div>
+
+            <div class="contactcolumn"> 
+                <h2> Opening Hours </h2>
+                <h3> Sunday - Saturday </h3>
+                <p> 8:00 AM - 08:00 PM </p>
+                <h3> Tel: 08107450979 </h3>
+            </div>
+
+            <div class="contactcolumn social"> 
+                <ul class="social-icon">
+                    <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                    <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+                    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <span class="forAk"> Copyright © 2022 AK FROZEN FOOD & DRINKS </span>
+    </footer>
+
+
+   
+    <script src="./js/App.js"> </script>
+</body>
+</html>
