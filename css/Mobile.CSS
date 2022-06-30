@@ -4,9 +4,14 @@
       display: flex;
     }
 
-    header > button {
+    #Btn {
       display: flex;
       margin-right: 50px;
+    }
+
+    .fa-bars {
+      font-size: 40px;
+      color: yellow;
     }
 
     header > ul {
@@ -177,9 +182,4 @@
       /* color: brown; */
       margin-top: 25px;
     }
-    
-
-    
-
-
 }
