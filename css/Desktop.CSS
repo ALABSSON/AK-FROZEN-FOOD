@@ -32,11 +32,23 @@ header {
   border-bottom: 1px solid #FAC72D;
 }
 
-header > img {
-  width: 60px;
-  height: 60px;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  width: 50px;
+  height: 50px;
   margin-left: 50px;
   border-radius: 50%;
+}
+
+.logo h3 {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #FAC72D;
 }
 
 header > ul {
@@ -166,17 +178,17 @@ img:nth-child(5) {
   font-weight: 200px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
   margin-top: 20px;
 }
 
 .aboutin2 {
   width: 35%;
   height: 100%;
-  background-image: url(../images/icons8_member_96px.png);
+  background-image: url(../images/about\ us.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 400px;
 }
 
 /************* Instock Page *******************/
@@ -304,6 +316,16 @@ img:nth-child(5) {
   color: white;
 }
 
+.order form {
+  height: 80%;
+  width: 100%;
+}
+
+.orderList2 {
+  width: 100%;
+  height: 100%;
+}
+
 .orderRow {
   width: 100%;
   height: 80%;
@@ -319,22 +341,14 @@ img:nth-child(5) {
   margin-top: 5px;
 }
 
-.itemList form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.itemList form h4 {
+.itemList > h4 {
   width: 50%;
   font-weight: 500px;
   font-size: 20px;
   color: white;
 }
 
-.itemList form h5 {
+.itemList > h5 {
   width: 20%;
   font-weight: 500px;
   font-size: 20px;
@@ -343,7 +357,7 @@ img:nth-child(5) {
   color: white;
 }
 
-.itemList form > h6 {
+.itemList > h6 {
   width: 20%;
   font-weight: 500px;
   font-size: 20px;
@@ -352,7 +366,7 @@ img:nth-child(5) {
   color: white;
 }
 
-.itemList > form > h6 > input{
+.itemList > h6 > input{
   width: 80px;
   height: 30px;
   outline: none;
@@ -518,6 +532,7 @@ img:nth-child(5) {
 .social {
   justify-content: space-between;
   align-items: center;
+  margin-top: 0px;
 }
 
 .social-icon {
@@ -531,14 +546,4 @@ img:nth-child(5) {
 .fa {
   font-size: 30px;
   color: white;
-}
-
-.forAk {
-  width: 100%;
-  height: 20px;
-  background: #000;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

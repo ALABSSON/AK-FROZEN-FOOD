@@ -14,7 +14,10 @@
     
     <!-- Header Section  -->
     <header>
-        <img src="./images/logo.JPG" alt="">
+        <div class="logo">
+            <img src="./images/logo.JPG" alt="">
+            <h3>AK FROZEN FOOD & DRINKS</h3>
+        </div>
         <ul id="Menu">
             <a href="#"><li> Home </li> </a>
             <a href="#About"><li> About </li> </a>
@@ -40,7 +43,9 @@
     <section id="About">
         <div class="aboutin1"> 
             <h2> About Us </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel, earum distinctio ipsam vitae sed. Obcaecati architecto voluptatum ad quia facere reprehenderit, pariatur, sapiente debitis autem, a nisi sunt vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nisi ipsam error quod ad nam impedit, nobis magnam consectetur, animi voluptas, repellat inventore et placeat! Totam sed praesentium et vel.</p> 
+            <p>AK FROZEN FOOD & DRINKS is a customer focused food services company established in 2008, we have since attained a front-line position in the highly competitive frozen food’s service industry.</p> 
+            <p>We engaged professional food experts from diverse backgrounds and cultures to achieve the true taste our customers deserve. Our foods are produced under the most hygienic conditions and we make use of only most modern and proven equipment for our extensive, diverse and imaginable array of foods.</p> 
+            <p>AK FROZEN FOOD & DRINKS is a 5-star restaurant that produces first-class cuisines. We maintain consistency since inception. This makes AK FROZEN FOOD & DRINKS the first choice for all. At AK FROZEN FOOD & DRINKS, every national always feel at home, courtesy of our array of food products for many nationalities and tribes. Also we do home delivery. </p> 
         </div>
         <div class="aboutin2"> </div>
     </section>
@@ -49,44 +54,44 @@
     <section id="In_Stock">
         <div class="stockRow">
             <div class="stocks">
-                <div class="stockImg"> <img src="./images/IMG_4400.JPG" alt=""> </div>
+                <div class="stockImg"> <img src="./images/chicken.jpg" alt=""> </div>
                 <div class="stockDetails">
                     <h2> Chicken  </h2>
-                    <button id="btn1"> Order </button>
+                    <button id="btn1"> Shop Now </button>
                 </div>
             </div>
 
             <div class="stocks">
-                <div class="stockImg"> <img src="./images/IMG_4401.JPG" alt=""> </div>
+                <div class="stockImg"> <img src="./images/turkey.jpg" alt=""> </div>
                 <div class="stockDetails">
                     <h2> Turkey  </h2>
-                    <button id="btn2"> Order </button>
+                    <button id="btn2"> Shop Now </button>
                 </div>
             </div>
 
             <div class="stocks">
-                <div class="stockImg"> <img src="./images/IMG_4402.JPG" alt=""> </div>
+                <div class="stockImg"> <img src="./images/chicken wings.jpg" alt=""> </div>
                 <div class="stockDetails">
-                    <h2> Wings </h2>
-                    <button id="btn3"> Order </button>
+                    <h2> Wings/Lap </h2>
+                    <button id="btn3"> Shop Now </button>
                 </div>
             </div>
         </div>
 
         <div class="stockRow">
             <div class="stocks">
-                <div class="stockImg"> <img src="./images/IMG_4413.JPG" alt="">  </div>
+                <div class="stockImg"> <img src="./images/fish.jpg" alt="">  </div>
                 <div class="stockDetails">
                     <h2> Fish </h2>
-                    <button id="btn4"> Order </button>
+                    <button id="btn4"> Shop Now </button>
                 </div>
             </div>
 
             <div class="stocks">
-                <div class="stockImg"> <img src="./images/IMG_4415.JPG" alt="">  </div>
+                <div class="stockImg"> <img src="./images/gizzard.jpg" alt="">  </div>
                 <div class="stockDetails">
                     <h2> Gizard </h2>
-                    <button id="btn5"> Order </button>
+                    <button id="btn5"> Shop Now </button>
                 </div>
             </div>
 
@@ -94,49 +99,51 @@
                 <div class="stockImg"> <img src="./images/IMG_4417.JPG" alt="">  </div>
                 <div class="stockDetails">
                     <h2> Drinks </h2>
-                    <button id="btn6"> Order </button>
+                    <button id="btn6"> Shop Now </button>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section class="ordersection">
         <div class="xclose"> <h2 id="xclose"> Close </h2> </div>
         <div class="order">
-            <div class="orderList"> Ordering List </div>
-            <div class="orderRow">
-                <div class="itemList"> 
-                    <form>
-                        <h4> Item</h4>
-                        <h5> Price </h5>
-                        <h6> Quantity </h6>
-                    </form>
-                </div>
-                <div class="itemList">
-                    <form> 
-                        <h4> <img src="" alt=""> <span id="stockItem"> Chicken ( 1 kilo ) </span></h4>
-                        <h5 id="Price" oninput="calculate()">  540 </h5>
-                        <h6> <input type="number" id="QTY" oninput="calculate()"> </h6>
-                    </form>
-                </div>
-                <div class="itemList R"> 
-                    <div class="orderContact">
-                        <label for="Address"> Full Address </label>
-                        <input type="text" id="Address">
+                <div class="orderList"> Ordering List </div>
+                <form action="mailto:yusufolatunjialabi@gmail.com" method="post" enctype="text/plain">
+                    <div class="orderList2">
+                        <div class="orderRow">
+                            <div class="itemList"> 
+                                    <h4> Item</h4>
+                                    <h5> Price </h5>
+                                    <h6> Quantity </h6>
+                            </div>
+                            <div class="itemList">
+                                    <h4> <span id="stockItem"> Chicken ( 1 kilo ) </span></h4>
+                                    <h5 id="Price" oninput="calculate()">  540 </h5>
+                                    <h6> <input type="number" id="QTY" oninput="calculate()"> </h6>
+                            </div>
+                            <div class="itemList R"> 
+                                <div class="orderContact">
+                                    <label for="Address"> Full Address </label>
+                                    <input type="text" id="Address">
+                                </div>
+            
+                                <div class="orderContact">
+                                    <label for="Number"> Contact Number </label>
+                                    <input type="number" id="Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orderSubmit">
+                            <div id="amount"> N </div>
+                            <button type="submit"> Submit </button>
+                        </div>
                     </div>
-
-                    <div class="orderContact">
-                        <label for="Number"> Contact Number </label>
-                        <input type="number" id="Number">
-                    </div>
-                </div>
-            </div>
-            <div class="orderSubmit">
-                <div id="amount"> N </div>
-                <button> Submit </button>
-            </div>
+                </form>
         </div>
     </section>
+</form>
 
         <!-- Contact Section  -->
     <footer id="Contact">
@@ -148,7 +155,7 @@
             <div class="contactcolumn"> 
                 <h2> Location </h2>
                 <span> 58, Macpherson Road, Sapele, Nigeria </span>
-                <button> Direction </button>
+                <button> <a href="https://goo.gl/maps/RjLN4fyK7RDTwSin8"> Direction </a> </button>
             </div>
 
             <div class="contactcolumn"> 
@@ -165,10 +172,10 @@
                     <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
                     <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                 </ul>
-
+                <span class="forAk"> Copyright © 2022 AK FROZEN FOOD & DRINKS </span>
             </div>
         </div>
-        <span class="forAk"> Copyright © 2022 AK FROZEN FOOD & DRINKS </span>
+        
     </footer>
 
 
