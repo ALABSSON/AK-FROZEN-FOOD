@@ -23,7 +23,7 @@ const stockItem2 = document.getElementById("stockItem")
 const Price2 = document.getElementById("Price")
 order2.onclick = () => {
     popup.style.display = "flex"
-    stockItem2.innerHTML = "Turkey"
+    stockItem2.innerHTML = "Turkey ( 1 kilo )"
     Price2.innerHTML = "600"
 }
 
@@ -32,7 +32,7 @@ const stockItem3 = document.getElementById("stockItem")
 const Price3 = document.getElementById("Price")
 order3.onclick = () => {
     popup.style.display = "flex"
-    stockItem3.innerHTML = "Wings"
+    stockItem3.innerHTML = "Wings/Lap ( 1 kilo )"
     Price3.innerHTML = "960"
 }
 
@@ -41,7 +41,7 @@ const stockItem4 = document.getElementById("stockItem")
 const Price4 = document.getElementById("Price")
 order4.onclick = () => {
     popup.style.display = "flex"
-    stockItem4.innerHTML = "Fish"
+    stockItem4.innerHTML = "Fish ( 1 kilo )"
     Price4.innerHTML = "750"
 }
 
@@ -50,7 +50,7 @@ const stockItem5 = document.getElementById("stockItem")
 const Price5 = document.getElementById("Price")
 order5.onclick = () => {
     popup.style.display = "flex"
-    stockItem5.innerHTML = "Gizard"
+    stockItem5.innerHTML = "Gizard ( 1 kilo )"
     Price5.innerHTML = "800"
 }
 
